@@ -7,8 +7,8 @@ import FaqSection from "../components/FaqSection";
 
 const AboutUs = () => {
   return (
+    //* This acts like a div but does not render out like a div
     <>
-      //* This acts like a div but does not render out like a div
       <AboutSection />
       <ServiceSection />
       <FaqSection />
