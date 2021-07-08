@@ -6,27 +6,27 @@ import styled from "styled-components";
 const AboutSection = () => {
   return (
     <StyledAbout>
-      <div className="description">
+      <StyledDescription>
         <div className="title">
-          <div className="hide">
+          <StyledHide>
             <h2>We work to make</h2>
-          </div>
-          <div className="hide">
+          </StyledHide>
+          <StyledHide>
             <h2>
               Your <span>Dreams</span>
             </h2>
-            <div className="hide">
+            <StyledHide>
               <h2>come true</h2>
-            </div>
-          </div>
+            </StyledHide>
+          </StyledHide>
           <p>Contact us for any type of photography or videography</p>
           <button>Contact Us</button>
         </div>
-      </div>
+      </StyledDescription>
 
-      <div className="image">
+      <StyledImage>
         <img src={home1} alt="" />
-      </div>
+      </StyledImage>
     </StyledAbout>
   );
 };
@@ -40,6 +40,26 @@ const StyledAbout = styled.div`
   justify-content: space-between;
   padding: 5rem 10rem;
   color: white;
+`;
+
+const StyledDescription = styled.div`
+  flex: 1;
+  padding-right: 5rem;
+  font-weight: lighter;
+`;
+
+const StyledImage = styled.div`
+  flex: 1;
+  overflow: hidden;
+  img {
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+  }
+`;
+
+const StyledHide = styled.div`
+  overflow: hidden;
 `;
 
 export default AboutSection;

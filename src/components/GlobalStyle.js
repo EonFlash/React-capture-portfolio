@@ -7,7 +7,7 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     
-}
+
 
 body{
     background: #1b1b1b
@@ -56,6 +56,7 @@ h2{
         font-size: 1.4rem;
         line-height: 150%;
     }
+
 
 
 `;
