@@ -19,6 +19,9 @@ const ServiceSection = () => {
   return (
     <div>
       <Services>
+        <StyledImage>
+          <img src={home2} alt="" />
+        </StyledImage>
         <StyledDescription>
           <h2>
             High <span>Quality</span> services
@@ -54,9 +57,6 @@ const ServiceSection = () => {
             </StyledCard>
           </StyledCards>
         </StyledDescription>
-        <StyledImage>
-          <img src={home2} alt="" />
-        </StyledImage>
       </Services>
     </div>
   );

@@ -10,7 +10,8 @@ export const StyledAbout = styled.div`
 
 export const StyledDescription = styled.div`
   flex: 1;
-  padding-right: 5rem;
+  //padding-right: 5rem;
+  padding-left: 8rem;
   font-weight: lighter;
 `;
 
